@@ -23,7 +23,6 @@ from config import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # url 뒤에 아무도 없다 -> url만 접속했을 떄 Main class 실행
     path('', Main.as_view()),
 ]
 

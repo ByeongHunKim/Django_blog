@@ -12,3 +12,9 @@
  sudo apt-get update
  sudo apt-get install build-essential python3.8-dev
  pip install uwsgi
+
+# gitmoji 설치
+
+npm i -g gitmoji-cli
+
+brew install gitmoji
